@@ -1,0 +1,23 @@
+{
+  "name": "bullnose",
+  "version": "1.0.0",
+  "description": "Responsive website for wood finishing client",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rivas1/bullnose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Rivas1/bullnose",
+  "bugs": {
+    "url": "https://github.com/Rivas1/bullnose/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
