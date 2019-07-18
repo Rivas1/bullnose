@@ -144,8 +144,9 @@ header a:hover {
 /* Showcase */
 #showcase {
     min-height: 400px;
-    background: url('../images/oil_finish_newels.jpg') 0px -700px  no-repeat;
-    background-size: cover;
+    background: url('../images/oil_finish_newels.jpg') -800px -1400px  no-repeat;
+    width: 100%;
+    height: auto;
     color: #fff;
     text-align: center;
 }
