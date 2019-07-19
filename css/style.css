@@ -189,6 +189,7 @@ header a:hover {
 
 /* Boxes section */
 #boxes {
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     /* margin: auto; */
 }
@@ -388,4 +389,18 @@ footer {
     .reverse-columns {
         direction: rtl;
     }
+
+    #boxes .box{
+        /* grid-template-columns: 1fr; */
+        float: none;
+        width: 100%; 
+        padding: 10px;
+        /* text-align: center;  */
+    }
+
+    #boxes .box img{
+        width: 90px;
+    }
+
+    
 }
