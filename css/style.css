@@ -40,7 +40,8 @@ ul {
 
 .button_2 {
     border: 2px solid var(--secondary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: #fff;
     text-transform: uppercase;
     height: 50px;
     width: 200px;
@@ -48,14 +49,17 @@ ul {
     padding-right: 20px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: rgba(255,255,255, 0);
     font-size: 18px;
     margin-top: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .button_2:hover {
-    background-color: var(--secondary-color);
+    background-color: rgba(255,255,255, 0);
     color: #fff;
+   
 }
 
 h1,
@@ -161,6 +165,7 @@ header a:hover {
     font-size: 65px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000000;
    
 }
 
