@@ -161,10 +161,12 @@ header a:hover {
     font-size: 65px;
     text-transform: uppercase;
     margin-bottom: 10px;
+   
 }
 
 #showcase p {
     font-size: 20px;
+     
 }
 
 /* Newsletter section */
@@ -257,7 +259,10 @@ header a:hover {
 }
 
 #boxes .box img {
-    width: 90px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+
 }
 
 .reverse-columns {
@@ -402,10 +407,21 @@ footer {
         float: none;
         width: 100%; 
         padding: 10px;
+        font-size: 1.5rem;
         /* text-align: center;  */
     }
 
-    #boxes .box img{
-        width: 90px;
+    #boxes .box h3 {
+        border-bottom: 5px solid;
+        border-color: var(--secondary-color);
+        padding-bottom: 0.5rem;
+        padding-top: 0;
+        margin-top: 0.5rem;
+    }
+
+    #boxes .box img {
+        /* min-width: 500px; */
+        width: 100%;
+        height: auto;
     }
 }
