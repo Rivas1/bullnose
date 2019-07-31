@@ -411,9 +411,9 @@ footer {
         /* grid-template-columns: 1fr; */
         float: none;
         width: 100%; 
-        padding: 10px;
+        padding: 0;
         font-size: 1.5rem;
-        /* text-align: center;  */
+        /* text-align: right; */
     }
 
     #boxes .box h3 {
@@ -428,5 +428,10 @@ footer {
         /* min-width: 500px; */
         width: 100%;
         height: auto;
+    }
+
+    #boxes .box p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
